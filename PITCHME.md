@@ -92,6 +92,9 @@ UX Bear
 
 Tay
 
+![](assets/img/tay.jpg)
+
+
 Note: 
 bot in Twitter.
 Parler avec les gens et se forger une personnalité.
@@ -100,6 +103,27 @@ EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook 
 - renie l'holocauste
 - racisme en tout genre
 
+---
+
+Tay
+
+![](assets/img/tay_01.jpeg)
+![](assets/img/tay_02.jpeg)
+
+
+---
+
+Tay
+
+![](assets/img/tay_03.jpeg)
+![](assets/img/tay_04.jpg)
+
+---
+
+Tay
+
+![](assets/img/tay_05.png)
+![](assets/img/tay_06.jpg)
 
 ---
 
