@@ -226,44 +226,50 @@ Les premiers filtres Anti-Spam fonctionnait comme ça.
 
 ---
 
-
-
 ```
-class: weather
-    "is it nice outside?"
-    "how is it outside?"
-    "is the weather nice?"
+class: devfest
+    "What is DevFest?"
+    "What happens on November 8th 2018?"
+    "Do you know the best developer festival?"
+    "Where is DevFest Toulouse this year?"
 
-class: greeting
-    "how are you?"
-    "hello there"
+class: harry coworking
+    "Where can I cowork?"
+    "Where developers run their meetups?"
     "how is it going?"
 ```
 
 ---
 
 ```
-class: weather
-    "is it nice outside?"
-    "how is it outside?"
-    "is the weather nice?"
+class: devfest
+    "What is DevFest?"
+    "What happens on November 8th 2018?"
+    "Do you know the best developer festival?"
+    "Where is DevFest Toulouse this year?"
 
-class: greeting
-    "how are you?"
-    "hello there"
+class: harry coworking
+    "Where can I cowork?"
+    "Where developers run their meetups?"
     "how is it going?"
 ```
 
 ```
-input: "Hi there"
- term: "hi" (no matches)
- term: "there" (class: greeting)
- classification: greeting (score=1)
+input: "Did you do your best?"
+ term: "Did" (no matches)
+ term: "you" (class: devfest)
+ term: "do" (class: devfest)
+ term: "your" (no matches)
+ term: "best" (class: devfest)
+ classification: devfest (score=3)
 
-input: "What’s it like outside?"
- term: "it" (class: weather (2), greeting)
- term: "outside (class: weather (2) )
- classification: weather (score=4)
+input: "Where should I go to meet developers?"
+ term: "Where" (class: harrycoworking (2), devfest (1))
+ term: "should" (no matches)
+ term: "I" (class: harrycoworking)
+ term: "go"/"to"/"meetups" (no matches)
+ term: "developers" (class: harrycoworking)
+ classification: harrycoworking (score=4)
 ```
 
 ---
