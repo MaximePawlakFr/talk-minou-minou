@@ -295,12 +295,32 @@ Natural Language Processing
 
 * Lower-case |
   * devfest toulouse is awesome: there are the greatest speakers and developers! |
+
 * Remove punctuation |
   * devfest toulouse is awesome there are the greatest speakers and developers |
+
+---
+
+"DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
+
 * Stop Words |
   * devfest toulouse awesome greatest speakers developers |
+
 * Stemming |
   * devfest toulouse awesome great speak develop |
+
+---
+
+
+"DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
+
+* Lower-case
+* Remove punctuation 
+* Stop Words
+* Stemming 
+
+devfest toulouse awesome great speak develop 
+
 
 ---
 
