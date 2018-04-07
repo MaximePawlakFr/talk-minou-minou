@@ -51,7 +51,7 @@ Clippy était déjà en qqsorte un caht bot
 
 ## Exemples
 
-----
+---
 
 Mitsuki
 
@@ -63,7 +63,7 @@ Rose
 
 Poncho
 
-Note :
+Note:
 Weather and Horoscope
 avec un peu de fun
 
@@ -75,10 +75,13 @@ Insomno bot
 
 UX Bear
 
+![uxbear](assets/ux_bear.jpeg)
+
 ---
 
 Tay
-Note : 
+
+Note: 
 bot in Twitter.
 Parler avec les gens et se forger une personnalité.
 EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook : 
@@ -100,7 +103,11 @@ Chatbots for everything !
 * date |
 
 ---
-How do they work ?
+
+# How do they work ?
+
+---
+
 ## Methods
 
 * Keywords
