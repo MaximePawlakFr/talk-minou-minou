@@ -291,7 +291,7 @@ Natural Language Processing
 
 ---
 
-> DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
+"DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
 
 * Lower-case |
   * devfest toulouse is awesome: there are the greatest speakers and developers! |
