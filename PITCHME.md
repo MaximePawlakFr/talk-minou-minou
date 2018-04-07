@@ -238,31 +238,24 @@ class: harry coworking
     "Where developers run their meetups?"
     "how is it going?"
 ```
-
----
-
-```
-class: devfest
-    "What is DevFest?"
-    "What happens on November 8th 2018?"
-    "Do you know the best developer festival?"
-    "Where is DevFest Toulouse this year?"
-
-class: harry coworking
-    "Where can I cowork?"
-    "Where developers run their meetups?"
-    "how is it going?"
-```
+<span class="framgent">
 
 ```
 input: "Did you do your best?"
+```
+```
  term: "Did" (no matches)
  term: "you" (class: devfest)
  term: "do" (class: devfest)
  term: "your" (no matches)
  term: "best" (class: devfest)
  classification: devfest (score=3)
+```
 
+</span>
+---
+
+```
 input: "Where should I go to meet developers?"
  term: "Where" (class: harrycoworking (2), devfest (1))
  term: "should" (no matches)
