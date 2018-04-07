@@ -71,6 +71,8 @@ avec un peu de fun
 
 Insomno bot
 
+![](assets/img/insomno_bot.png)
+
 ---
 
 UX Bear
