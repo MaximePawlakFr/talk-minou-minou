@@ -13,34 +13,34 @@
 
 # Roadmap
 
-* chatbots, what's that "next revolution"
-* JeanJô, le chatbot citoyen
-  * Découverte de DialogFlow
-* Perspectives des chatbots en 2018
+* Chatbot, what's that "next revolution"
+* How do they work ?
+* Make your chatbot in 15 mintes
 
 ---
 
-Définition
-A chatbot is a computer program which conducts a conversation via auditory or textual methods.
+ > "A chatbot is a computer program which conducts a conversation via auditory or textual methods. " Wikipedia
 
-Note : 
+Note: 
 Convaincre qu'on ne discute pas avec un robot, mais un autre humain.
-
----
 
 Une interface de dialogue avec un avatar qui va répondre du mieux qu'il peut.
 
 ---
 
+![](assets/img/chatbot_messenger.jpg)
+
+Note: 
 Explosion en 2016 quand Facebook a permis aux développeurs de créer des chatbots sur la plateforme.
 Beaucoup plus accessible, et surtout l'interface est déjà là.
 
 ---
 
+![](assets/img/cocu_71515.jpeg)
+
+Note: 
 Les services SMS sont déjà en qq sorte un chatbot
 Envoi voyage au 63636
-
-Note : 
 Mais très limité, on est d'accord
 
 ---
@@ -53,11 +53,22 @@ Clippy était déjà en qqsorte un caht bot
 
 ---
 
-Mitsuki
+![](assets/img/mitsuki_01.png)
 
 ---
 
-Rose
+![](assets/img/mitsuki.png)
+
+---
+
+
+![](assets/img/rose.png)
+
+---
+
+Insomno bot
+
+![](assets/img/insomno_bot.png)
 
 ---
 
@@ -72,15 +83,7 @@ avec un peu de fun
 
 ---
 
-Poncho 
-
 ![](assets/img/poncho.jpeg)
-
----
-
-Insomno bot
-
-![](assets/img/insomno_bot.png)
 
 ---
 
@@ -127,6 +130,7 @@ EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook 
 ---
 
 conclusion:
+
 Chatbots for everything !
 
 * weather | 
@@ -135,6 +139,7 @@ Chatbots for everything !
 * medical diagnostic | 
 * learn |
 * date |
+* ... |
 
 ---
 
@@ -142,7 +147,127 @@ Chatbots for everything !
 
 ---
 
-## Methods
+Classifier
+
+(hello)
+
+Note:
+input processed by a function ("classifier"),
+qui va associer à une Intention 
+pour produire une réponse.
+
+* Catégoriser parmi plusieurs catégories (intents)
+
+---
+
+## Chatbot text classification
+
+* Pattern matchers
+* Algorithms
+* Neural Networks
+
+---
+
+### Pattern Matchers
+
+```
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+   <category>
+      <pattern> WHO IS ALBERT EINSTEIN </pattern>
+      <template>Albert Einstein was a German physicist.</template>
+   </category>
+   
+   <category>
+      <pattern> WHO IS Isaac NEWTON </pattern>
+      <template>Isaac Newton was a English physicist and mathematician.</template>
+   </category>
+   
+   <category>
+      <pattern>DO YOU KNOW WHO * IS</pattern>
+      <template>
+         <srai>WHO IS <star/></srai>
+      </template>
+   </category>
+</aiml>
+```
+
+Note:
+Brute force
+
+---
+
+### Pattern Matchers
+
+```
+Human: Do you know who Albert Einstein is
+Robot: Albert Einstein was a German physicist.
+```
+
+Note:
+Très limité
+Pas de flexibilité
+
+---
+
+### Algorithms
+
+Bag of words
+
+Text = bag of words
+
+Compter les occurences
+
+Note:
+Les premiers filtres Anti-Spam fonctionnait comme ça.
+
+---
+
+(commitstrip)
+
+---
+
+
+
+```
+class: weather
+    "is it nice outside?"
+    "how is it outside?"
+    "is the weather nice?"
+
+class: greeting
+    "how are you?"
+    "hello there"
+    "how is it going?"
+```
+
+---
+
+```
+class: weather
+    "is it nice outside?"
+    "how is it outside?"
+    "is the weather nice?"
+
+class: greeting
+    "how are you?"
+    "hello there"
+    "how is it going?"
+```
+
+```
+input: "Hi there"
+ term: "hi" (no matches)
+ term: "there" (class: greeting)
+ classification: greeting (score=1)
+
+input: "What’s it like outside?"
+ term: "it" (class: weather (2), greeting)
+ term: "outside (class: weather (2) )
+ classification: weather (score=4)
+```
+
+---
+
 
 * Keywords
 * NLP : Natural Language Processing
@@ -150,21 +275,6 @@ Chatbots for everything !
 ---
 
 
-
----
-
-chatbot vs virtual assistant
-
----
-
-La ruée vers les chatbots
-Véritable buzzword, reprendre des articles de presse et des faits
-Chatbot pour TOUT : 
-Fail Tail Tweet
-
----
-
-Mais les chatbots ont 9 vies, c'est bien connu
 
 ---
 
@@ -310,4 +420,9 @@ https://chatbotsmagazine.com/which-are-the-best-intelligent-chatbots-or-ai-chatb
 https://www.businessnewsdaily.com/10450-funniest-chatbot-fails.html
 
 http://www.netimperative.com/2016/12/12-worst-marketing-fails-2016-rogue-chatbots-tasteless-burgers-google-fools/
+
+https://techcrunch.com/2016/04/12/agents-on-messenger/
+
+https://medium.com/@gk_/how-chat-bots-work-dfff656a35e2
+
 https://en.wikipedia.org/wiki/Natural-language_processing
