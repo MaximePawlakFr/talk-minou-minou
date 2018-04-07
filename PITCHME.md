@@ -75,7 +75,7 @@ Insomno bot
 
 UX Bear
 
-![uxbear](assets/ux_bear.jpeg)
+![uxbear](assets/img/ux_bear.jpeg)
 
 ---
 
