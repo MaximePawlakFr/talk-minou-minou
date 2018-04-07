@@ -238,7 +238,6 @@ class: harry coworking
     "Where developers run their meetups?"
     "how is it going?"
 ```
-<span class="framgent">
 
 ```
 input: "Did you do your best?"
@@ -252,11 +251,26 @@ input: "Did you do your best?"
  classification: devfest (score=3)
 ```
 
-</span>
 ---
+
+
+```
+class: devfest
+    "What is DevFest?"
+    "What happens on November 8th 2018?"
+    "Do you know the best developer festival?"
+    "Where is DevFest Toulouse this year?"
+
+class: harry coworking
+    "Where can I cowork?"
+    "Where developers run their meetups?"
+    "how is it going?"
+```
 
 ```
 input: "Where should I go to meet developers?"
+```
+```
  term: "Where" (class: harrycoworking (2), devfest (1))
  term: "should" (no matches)
  term: "I" (class: harrycoworking)
@@ -264,6 +278,35 @@ input: "Where should I go to meet developers?"
  term: "developers" (class: harrycoworking)
  classification: harrycoworking (score=4)
 ```
+
+Note:
+GO TO DEVFEST
+
+---
+
+Better
+
+NLP
+Natural Language Processing 
+
+---
+
+> DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
+
+* Lower-case |
+  * devfest toulouse is awesome: there are the greatest speakers and developers! |
+* Remove punctuation |
+  * devfest toulouse is awesome there are the greatest speakers and developers |
+* Stop Words |
+  * devfest toulouse awesome greatest speakers developers |
+* Stemming |
+  * devfest toulouse awesome great speak develop |
+
+---
+
+Conclusion
+
+Even *naive* algorithms can produce great results
 
 ---
 
