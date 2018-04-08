@@ -432,18 +432,35 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 
 ![](assets/img/.png)
 
+---
+### Intent
+
+
 ---?image=assets/img/dl01.png&size=contain
 ---?image=assets/img/dl02.png&size=contain
----?image=assets/img/dl03.png&size=contain
 ---?image=assets/img/dl04.png&size=contain
+
+---
+### Training Phrases
+
 ---?image=assets/img/dl05.png&size=contain
 ---?image=assets/img/dl06.png&size=contain
+
+---
+### Responses
+
 ---?image=assets/img/dl07.png&size=contain
 ---?image=assets/img/dl08.png&size=contain
+
+---
+### Action and parameters
 ---?image=assets/img/dl09.png&size=contain
 ---?image=assets/img/dl10.png&size=contain
 ---?image=assets/img/dl11.png&size=contain
 ---?image=assets/img/dl12.png&size=contain
+
+---
+### Context
 ---?image=assets/img/dl14.png&size=contain
 ---?image=assets/img/dl15.png&size=contain
 ---?image=assets/img/dl16.png&size=contain
@@ -451,14 +468,25 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 ---?image=assets/img/dl18.png&size=contain
 ---?image=assets/img/dl19.png&size=contain
 ---?image=assets/img/dl20.png&size=contain
+
+---
+### Entities
 ---?image=assets/img/dl21.png&size=contain
 ---?image=assets/img/dl22.png&size=contain
 ---?image=assets/img/dl23.png&size=contain
----?image=assets/img/dl24.png&size=contain
----?image=assets/img/dl25.png&size=contain
-
 
 ---
+### Training
+---?image=assets/img/dl24.png&size=contain
+---?image=assets/img/dl25.png&size=contain
+---?image=assets/img/dl26.png&size=contain
+---?image=assets/img/dl27.png&size=contain
+---?image=assets/img/dl28.png&size=contain
+---?image=assets/img/dl29.png&size=contain
+
+---
+### Integrations
+---?image=assets/img/dl30.png&size=contain
 
 
 
