@@ -487,9 +487,40 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 ---
 ### Integrations
 ---?image=assets/img/dl30.png&size=contain
+---?image=assets/img/dl31.png&size=contain
+
+---
+###Fulfillment
+---?image=assets/img/dl32.png&size=contain
 
 
+---
 
+```javascript
+const functions = require('firebase-functions');
+const {WebhookClient} = require('dialogflow-fulfillment');
+const {Card, Suggestion} = require('dialogflow-fulfillment');
+ 
+exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, response) => {
+  const agent = new WebhookClient({ request, response });
+  console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
+  console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
+
+  function devfestHandler(agent) {
+    agent.add(`This message is from Dialogflow's Cloud Functions for Firebase editor!`);
+  }
+
+  let intentMap = new Map();
+  intentMap.set('intent-devfest', devfestHandler);
+  agent.handleRequest(intentMap);
+});
+
+```
+---?image=assets/img/dl33.png&size=contain
+---?image=assets/img/dl34.png&size=contain
+---?image=assets/img/dl35.png&size=contain
+
+---
 
 Quel date sommes-nous ?
 Je suis Maxime et je suis au GDG. Où suis-je ?
