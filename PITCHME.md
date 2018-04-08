@@ -247,7 +247,6 @@ input: "Did you do your best?"
 
 ---
 
-
 ```
 class: devfest
     "What is DevFest?"
@@ -490,9 +489,8 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 ---?image=assets/img/dl31.png&size=contain
 
 ---
-###Fulfillment
+### Fulfillment
 ---?image=assets/img/dl32.png&size=contain
-
 
 ---
 
@@ -501,13 +499,15 @@ const functions = require('firebase-functions');
 const {WebhookClient} = require('dialogflow-fulfillment');
 const {Card, Suggestion} = require('dialogflow-fulfillment');
  
-exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, response) => {
+exports.dialogflowFirebaseFulfillment = functions.https.onRequest(
+  (request, response) => {
   const agent = new WebhookClient({ request, response });
   console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
   console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
 
   function devfestHandler(agent) {
-    agent.add(`This message is from Dialogflow's Cloud Functions for Firebase editor!`);
+    agent.add(
+      `This message is from Dialogflow's Cloud Functions for Firebase editor!`);
   }
 
   let intentMap = new Map();
@@ -519,6 +519,13 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 ---?image=assets/img/dl33.png&size=contain
 ---?image=assets/img/dl34.png&size=contain
 ---?image=assets/img/dl35.png&size=contain
+
+---
+
+### Web Integration
+
+---?image=assets/img/dl36.png&size=contain
+---?image=assets/img/dl37.png&size=contain
 
 ---
 
