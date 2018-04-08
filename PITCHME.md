@@ -267,7 +267,8 @@ input: "Where should I go to meet developers?"
  term: "Where" (class: harrycoworking (2), devfest (1))
  term: "should" (no matches)
  term: "I" (class: harrycoworking)
- term: "go"/"to"/"meetups" (no matches)
+ term: "go"/"to" (no matches)
+ term: "meetups" (class: harrycoworking)
  term: "developers" (class: harrycoworking)
  classification: harrycoworking (score=4)
 ```
@@ -526,35 +527,6 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest(
 
 ---?image=assets/img/dl36.png&size=contain
 ---?image=assets/img/dl37.png&size=contain
-
----
-
-Quel date sommes-nous ?
-Je suis Maxime et je suis au GDG. Où suis-je ?
-Mais ne sais plus comment je m'appelle. On verra cela avec le contexte.
-
----
-
-1. Intent
-  * Training Phrases
-  * Action
-  * Response
-  * Contexts
-* Entities
-4. Response
-
----
-
-Exemple 2 : avec CloudFunctions
-
----
-
-Intégration
-* API
-
----
-
-Contexte
 
 ---
 
