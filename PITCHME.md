@@ -213,16 +213,10 @@ Pas de flexibilité
 
 Bag of words
 
-Text = bag of words
-
-Compter les occurences
-
 Note:
 Les premiers filtres Anti-Spam fonctionnait comme ça.
-
----
-
-(commitstrip)
+Text = bag of words
+Compter les occurences
 
 ---
 
@@ -295,7 +289,6 @@ Natural Language Processing
 
 * Lower-case |
   * devfest toulouse is awesome: there are the greatest speakers and developers! |
-
 * Remove punctuation |
   * devfest toulouse is awesome there are the greatest speakers and developers |
 
@@ -305,7 +298,6 @@ Natural Language Processing
 
 * Stop Words |
   * devfest toulouse awesome greatest speakers developers |
-
 * Stemming |
   * devfest toulouse awesome great speak develop |
 
@@ -321,30 +313,16 @@ Natural Language Processing
 
 devfest toulouse awesome great speak develop 
 
+---
+
+![](assets/img/commitstrip.jpeg)
 
 ---
 
 Conclusion
 
-Even *naive* algorithms can produce great results
+Even *naive* algorithms can produce great results.
 
----
-
-
-* Keywords
-* NLP : Natural Language Processing
-
----
-
-
-
----
-
-Processus de fonctionnement d'un chatbot
-  NLP
-  ou keywords : FAQ
-  exemple météo
-  
 ---
 
 Jean Jô, le chatbot citoyen
@@ -415,19 +393,75 @@ Cas pratique 1
 
 ---
 
-Dans la vraie vie : 
-- Welcome => Request => ... => ... => Fulfilment => Response => Context
+Dans la vraie vie 
+
+You | Julien
+-- | --
+Salut Julien ! | Hey !
+Peux-tu me donner des infos sur le DevFest Toulouse 2018 ? | devfesttoulouse.fr
+&nbsp; | C'est le rdv des développeurs dans la région : le 8 novembre, CFP ouvert, ...
+La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les early birds seront dispos le 06 juin !
 
 ---
 
-Avec un chatbot
-- Invocation => Intent => Training Phrases => Entities => Fulfilment Request => Response => Context
+You | Julien | Type
+-- | -- | -- 
+Salut Julien ! | Hey ! | Welcome
+Peux-tu me donner des infos sur le DevFest Toulouse 2018 ? | | Request
+&nbsp; | devfesttoulouse.fr | Fulfillment request
+&nbsp; | C'est le rdv des développeurs dans la région : le 8 novembre, CFP ouvert, ... | Response
+La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les early birds seront dispos le 06 juin ! | Context
+
 
 ---
 
-Mise en place avec DialogFlow
+Avec un chabot :smiley_cat:
+
+You | Julien | Type
+-- | -- | -- 
+Salut Julien ! | Hey ! | Welcome
+Peux-tu me donner des infos sur le DevFest Toulouse 2018 ? | |  Intent + Training Phrases + Entities
+&nbsp; | devfesttoulouse.fr | Fulfillment request
+&nbsp; | C'est le rdv des développeurs dans la région : le 8 novembre, CFP ouvert, ... | Response
+La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les early birds seront dispos le 06 juin ! | Context
+
+
+---?image=assets/img/dl00.png
+
+## Mise en place avec DialogFlow
+
+![](assets/img/.png)
+
+---?image=assets/img/dl01.png
+---?image=assets/img/dl02.png
+---?image=assets/img/dl03.png
+---?image=assets/img/dl04.png
+---?image=assets/img/dl05.png
+---?image=assets/img/dl06.png
+---?image=assets/img/dl07.png
+---?image=assets/img/dl08.png
+---?image=assets/img/dl09.png
+---?image=assets/img/dl10.png
+---?image=assets/img/dl11.png
+---?image=assets/img/dl12.png
+---?image=assets/img/dl14.png
+---?image=assets/img/dl15.png
+---?image=assets/img/dl16.png
+---?image=assets/img/dl17.png
+---?image=assets/img/dl18.png
+---?image=assets/img/dl19.png
+---?image=assets/img/dl20.png
+---?image=assets/img/dl21.png
+---?image=assets/img/dl22.png
+---?image=assets/img/dl23.png
+---?image=assets/img/dl24.png
+---?image=assets/img/dl25.png
+
 
 ---
+
+
+
 
 Quel date sommes-nous ?
 Je suis Maxime et je suis au GDG. Où suis-je ?
