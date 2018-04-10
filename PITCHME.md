@@ -341,15 +341,66 @@ Note:
 *  This number, one of the first 20, uses only one vowel (4 times!). 
 *  Seventeen
 
+---?image=assets/img/mix.jpeg&size=contain
+
+
+---?image=assets/img/cat06.jpeg&size=contain
+
+# Part 3 - Futur ?
+
+---?image=assets/img/futur.jpg&size=contain
+
+---?image=assets/img/ihm.jpeg&size=contain
+
+## IHM
+
+Note:
+* Intéractions plus naturelles avec le numérique
+* Evolution des IHM
+  * Bouton physique
+  * Terminal
+  * Interface graphique
+  * Chatbot : agent conversationnel
+
 ---
 
-![](assets/img/commitstrip.jpeg)
+## Accessible
+
+Note:
+* Open-Source
 
 ---
 
-Conclusion
+## Accessible
 
-Even *naive* algorithms can produce great results.
+![](assets/img/iky.gif)
+
+"You don’t need to be an expert at artificial intelligence to create an awesome chatbot that has artificial intelligence. With this basic project you can create an artificial intelligence powered chatting machine in no time."
+
+https://github.com/alfredfrancis/ai-chatbot-framework/
+
+---?image=assets/img/rasa.png&size=contain
+
+---
+
+![](img/assets/chatterbot.png)
+
+```python
+from chatterbot import ChatBot
+
+chatbot = ChatBot(
+    'Ron Obvious',
+    trainer='chatterbot.trainers.ChatterBotCorpusTrainer'
+)
+
+# Train based on the english corpus
+chatbot.train("chatterbot.corpus.english")
+
+# Get a response to an input statement
+chatbot.get_response("Hello, how are you today?")
+```
+
+https://github.com/gunthercox/ChatterBot
 
 ---
 
