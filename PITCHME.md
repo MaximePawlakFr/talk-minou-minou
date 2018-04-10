@@ -601,7 +601,7 @@ Les limites
 
 # Conclusion
 
-* Chatbot is the next interface
+* Chatbots are the next interface
 * Chatbots are accessible
 * Chatbots are really easy with DialogFlow
 
