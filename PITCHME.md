@@ -470,7 +470,7 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 
 ---
 
-Avec un chabot :smiley_cat:
+Avec un 😺 chabot 😺
 
 You | Julien | Type
 -- | -- | -- 
