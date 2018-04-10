@@ -4,21 +4,21 @@ Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 
 ---?image=assets/img/kittens01.jpeg&size=contain
 
-# Objectives 
+## Objectives 
 
 * Understand the big picture of chatbot
 * Deploy our 1st chatbot with DialogFlow
 
 ---?image=assets/img/cat01.jpeg&size=contain
 
-# Roadmap
+## Roadmap
 
 * Chatbot, what's that "next revolution"
 * Futur is coming
 * How do they work ?
 * Make your chatbot in 15 mintes
 
----?image=assets/img/cat02.jpeg&size=contain
+---?image=assets/img/cat02.jpg&size=contain
 
 # Part 1 - Chabot
 -----
@@ -34,7 +34,7 @@ Une interface de dialogue avec un avatar qui va répondre du mieux qu'il peut.
 
 ---?image=assets/img/nature_interface.jpg&size=contain
 
-# Interface
+## Interface
 
 ---
 
@@ -137,9 +137,9 @@ EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook 
 
 ![](assets/img/tay_06.jpg)
 
----
+---?image=assets/img/cat04.jpeg&size=contain
 
-Chatbots for everything !
+#### Chatbots for everything !
 
 * weather | 
 * horoscope |
@@ -149,15 +149,16 @@ Chatbots for everything !
 * date |
 * ... |
 
+---?image=assets/img/cat03.jpeg&size=contain
+
+# Part 2 - How do they work ?
+----
+
 ---
 
-# How do they work ?
+Classifiers
 
----
-
-Classifier
-
-(hello)
+![](assets/img/hello.png)
 
 Note:
 input processed by a function ("classifier"),
@@ -178,6 +179,7 @@ pour produire une réponse.
 
 ### Pattern Matchers
 
+AIML : Artificial Intelligence Markup Language
 ```
 <aiml version = "1.0.1" encoding = "UTF-8"?>
    <category>
@@ -203,8 +205,6 @@ Note:
 Brute force
 
 ---
-
-### Pattern Matchers
 
 ```
 Human: Do you know who Albert Einstein is
@@ -286,40 +286,35 @@ GO TO DEVFEST
 
 ---
 
-Better
+### NLP
 
-NLP
 Natural Language Processing 
+
+
+Note:
+* area of computer science and artificial intelligence concerned with the interactions between computers and human (natural) languages
+* translation 
+* SPAM
+* speech recognition
+* natural-language understanding 
+* natural-language generation
+* Automatic summarization
+* chatbot ...
+
+---
+
+> "Les mères poules couvent au couvent"
 
 ---
 
 "DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
 
 * Lower-case |
-  * devfest toulouse is awesome: there are the greatest speakers and developers! |
 * Remove punctuation |
-  * devfest toulouse is awesome there are the greatest speakers and developers |
-
----
-
-"DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
-
 * Stop Words |
-  * devfest toulouse awesome greatest speakers developers |
 * Stemming |
-  * devfest toulouse awesome great speak develop |
 
----
-
-
-"DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
-
-* Lower-case
-* Remove punctuation 
-* Stop Words
-* Stemming 
-
-devfest toulouse awesome great speak develop 
+devfest toulouse awesome great speak develop |
 
 ---
 
@@ -556,11 +551,11 @@ Sources :
 https://en.wikipedia.org/wiki/Chatbot
 https://en.wikipedia.org/wiki/Virtual_assistant_(artificial_intelligence)
 https://en.wikipedia.org/wiki/Turing_test
+
 https://chatbotsmagazine.com/which-are-the-best-intelligent-chatbots-or-ai-chatbots-available-online-cc49c0f3569d
 
 
 https://www.businessnewsdaily.com/10450-funniest-chatbot-fails.html
-
 http://www.netimperative.com/2016/12/12-worst-marketing-fails-2016-rogue-chatbots-tasteless-burgers-google-fools/
 
 https://techcrunch.com/2016/04/12/agents-on-messenger/
@@ -568,3 +563,5 @@ https://techcrunch.com/2016/04/12/agents-on-messenger/
 https://medium.com/@gk_/how-chat-bots-work-dfff656a35e2
 
 https://en.wikipedia.org/wiki/Natural-language_processing
+
+https://www.ekino.com/introduction-nlp-partie-i/
