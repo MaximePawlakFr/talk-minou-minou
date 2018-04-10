@@ -375,7 +375,7 @@ Note:
 
 ![](assets/img/iky.gif)
 
-"You don’t need to be an expert at artificial intelligence to create an awesome chatbot that has artificial intelligence. With this basic project you can create an artificial intelligence powered chatting machine in no time."
+"You don’t need to be an expert at artificial intelligence to create an awesome chatbot."
 
 https://github.com/alfredfrancis/ai-chatbot-framework/
 
@@ -400,7 +400,6 @@ chatbot.train("chatterbot.corpus.english")
 chatbot.get_response("Hello, how are you today?")
 ```
 
-https://github.com/gunthercox/ChatterBot
 
 ---
 
@@ -641,3 +640,5 @@ https://medium.com/@gk_/how-chat-bots-work-dfff656a35e2
 https://en.wikipedia.org/wiki/Natural-language_processing
 
 https://www.ekino.com/introduction-nlp-partie-i/
+
+https://github.com/gunthercox/ChatterBot
