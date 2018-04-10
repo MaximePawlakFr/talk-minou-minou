@@ -71,14 +71,7 @@ Mais très limité, on est d'accord
 
 ---
 
-
 ![](assets/img/rose.png)
-
----
-
-Insomno bot
-
-![](assets/img/insomno_bot.png)
 
 ---
 
