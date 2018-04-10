@@ -403,30 +403,25 @@ chatbot.get_response("Hello, how are you today?")
 
 ---
 
-Jean Jô, le chatbot citoyen
+# Part 4 - Deploy my 1st chatbot
 
 ---
 
-Mêlée Numérique 2017
+### Jean Jô
+
+![](assets/img/jeanjo.png)
+
+Note:
+* Mêlée Numérique 2017
+* La fiesta des buzzwords
+* Appel à OpenData de Toulouse Métropole et à tous les autres
 
 ---
 
-La fiesta des buzzwords
+![](assets/img/jeanjo02.png)
 
----
 
-Appel à OpenData de Toulouse Métropole et à tous les autres
-
----
-
-C'est bien, mais on peut faire mieux 
-
----
-
-Dans l'optique de proposer qqch qui rend service qu'est né JeanJô
-
----
-
+Note: 
 Premiers services imaginés : 
 - horaires de la piscine
 - quand passent les poubelles
@@ -435,35 +430,17 @@ Premiers services imaginés :
 
 ---
 
-Vous remarquerez, que les déjections de gênent personne !
+Quelles plateformes ?
 
----
+Note:
+* principalement sur Messenger, alors que je voulais qqch à mettre sur le site de Toulouse, avec le minimum de dépendance
 
-Cas pratique 1 : Discussion basique avec un chatbot
-Cas pratique 2 : Relier le chatbot à une API externe
-Cas pratique 3 : Tours d'horizons des autres fonctionnalités de DialogFlow
+---?image=assets/img/dialogflow.png&size=contain
 
----
 
-Solutions de chatbot par milliers
-
----
-
-Exemples
-
-----
-
-Mais principalement sur Messenger, alors que je voulais qqch à mettre sur le site de Toulouse, avec le minimum de dépendance
-
----
-
-J'ai donc mis de côté Facebook, pour aller Google :)
-DialogFlow
-ex api.ai
-
----
-
-Grande bibliothèque de SDK d'intégrations (start small, think big)
+Note: 
+* mis de côté Facebook, pour aller Google :)
+* Grande bibliothèque de SDK d'intégrations (start small, think big)
 
 ---
 
@@ -608,11 +585,14 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest(
 
 ---
 
-Les limites de JeanJo : adresse française, versioning
+Les limites
+
+* adresse française
+* versioning
 
 ---
 
-# ALlez plus loin
+# Allez plus loin
 * Import et export des Training phrases
 * Multi-language Agents : supports 15 languages
 * Machine Learning
@@ -620,6 +600,16 @@ Les limites de JeanJo : adresse française, versioning
 ---
 
 # Conclusion
+
+* Chatbot is the next interface
+* Chatbots are accessible
+* Chatbots are really easy with DialogFlow
+
+---
+
+# Merci 
+
+---
 
 Sources :
 
