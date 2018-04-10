@@ -324,9 +324,6 @@ Reconnaissance_d'entités_nommées
 
 > "J'ai mangé 1998 pommes golden le 23 mars 2018"
 
-
-Name
-
 ---
 
 #### NLU
@@ -334,7 +331,8 @@ Name
 Natural language understanding
 
 ---
-![](assets/img/nlp_nlu.jpeg)
+
+![](assets/img/nlp_nlu.png)
 
 ---?image=assets/img/watson.jpg&size=contain
 
