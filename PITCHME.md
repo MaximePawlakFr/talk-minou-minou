@@ -1,17 +1,13 @@
----?image=assets/img/soiree_gdg.png&size=contain
-
 ## 😺 Minou Minou 😺 ! Les chat(bot)s continuent leur invasion de l'INTERNET
 
 Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
-
 
 ---?image=assets/img/kittens01.jpeg&size=contain
 
 # Objectives 
 
-* Comprendre les grandes principes du fonctionnement d'un chatbot
-* Mettre en place son 1er chatbot avec DialogFlow
-* Devenir pote avec JeanJô
+* Understand the big picture of chatbot
+* Deploy our 1st chatbot with DialogFlow
 
 ---?image=assets/img/cat01.jpeg&size=contain
 
@@ -22,7 +18,12 @@ Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 * How do they work ?
 * Make your chatbot in 15 mintes
 
----?image=assets/img/wiki.jpeg&size=contain
+---?image=assets/img/cat02.jpeg&size=contain
+
+# Part 1 - Chabot
+-----
+
+---?image=assets/img/wiki.png&size=contain
 
  > "A chatbot is a computer program which conducts a conversation via auditory or textual methods. " Wikipedia
 
@@ -31,7 +32,7 @@ Convaincre qu'on ne discute pas avec un robot, mais un autre humain.
 
 Une interface de dialogue avec un avatar qui va répondre du mieux qu'il peut.
 
----?image=assets/img/nature_interface.jpg
+---?image=assets/img/nature_interface.jpg&size=contain
 
 # Interface
 
@@ -54,7 +55,7 @@ Mais très limité, on est d'accord
 
 ---
 
-Clippy était déjà en qqsorte un caht bot
+![](assets/img/clippy.jpeg)
 
 ---
 
@@ -137,8 +138,6 @@ EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook 
 ![](assets/img/tay_06.jpg)
 
 ---
-
-conclusion:
 
 Chatbots for everything !
 
