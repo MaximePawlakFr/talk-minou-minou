@@ -167,13 +167,9 @@ pour produire une réponse.
 
 * Catégoriser parmi plusieurs catégories (intents)
 
----
+---?image=assets/img/cat05.jpeg&size=contain
 
 ## Chatbot text classification
-
-* Pattern matchers
-* Algorithms
-* Neural Networks
 
 ---
 
@@ -307,14 +303,45 @@ Note:
 
 ---
 
-"DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
+> "DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
 
 * Lower-case |
 * Remove punctuation |
 * Stop Words |
 * Stemming |
+* > devfest toulouse awesome great speak develop |
 
-devfest toulouse awesome great speak develop |
+---
+
+#### NER
+
+Named-entity recognition
+
+Note: 
+Reconnaissance_d'entités_nommées
+
+---
+
+> "J'ai mangé 1998 pommes golden le 23 mars 2018"
+
+
+Name
+
+---
+
+#### NLU
+
+Natural language understanding
+
+---
+![](assets/img/nlp_nlu.jpeg)
+
+---?image=assets/img/watson.jpg&size=contain
+
+Note:
+* 2011 $1 million
+*  This number, one of the first 20, uses only one vowel (4 times!). 
+*  Seventeen
 
 ---
 
