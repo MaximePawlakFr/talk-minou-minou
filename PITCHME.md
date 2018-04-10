@@ -383,7 +383,7 @@ https://github.com/alfredfrancis/ai-chatbot-framework/
 
 ---
 
-![](img/assets/chatterbot.png)
+![](assets/img/chatterbot.png)
 
 ```python
 from chatterbot import ChatBot
