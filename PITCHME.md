@@ -1,4 +1,8 @@
-# Intro
+---?image=assets/img/soiree_gdg.png
+
+## 😺 Minou Minou 😺 ! Les chat(bot)s continuent leur invasion de l'INTERNET
+
+Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 
 
 ---?image=assets/img/kittens01.jpeg
@@ -9,15 +13,16 @@
 * Mettre en place son 1er chatbot avec DialogFlow
 * Devenir pote avec JeanJô
 
----
+---?image=assets/img/cat01.jpeg
 
 # Roadmap
 
 * Chatbot, what's that "next revolution"
+* Futur is coming
 * How do they work ?
 * Make your chatbot in 15 mintes
 
----
+---?image=assets/img/wiki.jpeg
 
  > "A chatbot is a computer program which conducts a conversation via auditory or textual methods. " Wikipedia
 
@@ -25,6 +30,10 @@ Note:
 Convaincre qu'on ne discute pas avec un robot, mais un autre humain.
 
 Une interface de dialogue avec un avatar qui va répondre du mieux qu'il peut.
+
+---?image=assets/img/nature_interface.jpg
+
+# Interface
 
 ---
 
