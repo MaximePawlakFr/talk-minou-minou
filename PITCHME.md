@@ -607,14 +607,10 @@ Les limites
 
 Some Resources
 
-* A curated list of awesome Chatbot services and resources
- * https://github.com/JStumpp/awesome-chatbots
-* Soul of the Machine : How Chatbots work
- * https://medium.com/@gk_/how-chat-bots-work-dfff656a35e2
-* Pourquoi internet est le royaume des chats - Ep.08 - e-penser
- * https://www.youtube.com/watch?v=yqE6xH901ow
-* Minute Papillote #72 Je hais les chats
- * https://www.youtube.com/watch?v=rz8GlTYhjkU
+* [A curated list of awesome Chatbot services and resources](https://github.com/JStumpp/awesome-chatbots)
+* [Soul of the Machine : How Chatbots work](https://medium.com/@gk_/how-chat-bots-work-dfff656a35e2)
+* [Pourquoi internet est le royaume des chats - Ep.08 - e-penser](https://www.youtube.com/watch?v=yqE6xH901ow)
+* [Minute Papillote #72 Je hais les chats](https://www.youtube.com/watch?v=rz8GlTYhjkU)
 
 ---
 
