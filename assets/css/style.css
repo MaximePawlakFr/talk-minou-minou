@@ -13,6 +13,8 @@ section > :first-child {
   right: 0;
   background-color: rgba(17,17,17,0.8);
   z-index: 0;
+  margin: 0;
+  padding: 0;
 }
 section > :nth-child(n + 1) {
   position: relative;
