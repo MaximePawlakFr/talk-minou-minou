@@ -13,7 +13,7 @@ Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 
 ---?image=assets/img/kittens01.jpeg&size=cover
 
-## Objectives 
+## Objectives
 
 * Understand the big picture of chatbot
 * Deploy our 1st chatbot with DialogFlow
@@ -36,7 +36,7 @@ Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 
  > "A chatbot is a computer program which conducts a conversation via auditory or textual methods. " Wikipedia
 
-Note: 
+Note:
 Convaincre qu'on ne discute pas avec un robot, mais un autre humain.
 
 Une interface de dialogue avec un avatar qui va répondre du mieux qu'il peut.
@@ -49,7 +49,7 @@ Une interface de dialogue avec un avatar qui va répondre du mieux qu'il peut.
 
 ![](assets/img/chatbot_messenger.jpg)
 
-Note: 
+Note:
 Explosion en 2016 quand Facebook a permis aux développeurs de créer des chatbots sur la plateforme.
 Beaucoup plus accessible, et surtout l'interface est déjà là.
 
@@ -57,7 +57,7 @@ Beaucoup plus accessible, et surtout l'interface est déjà là.
 
 ![](assets/img/cocu_71515.jpeg)
 
-Note: 
+Note:
 Les services SMS sont déjà en qq sorte un chatbot
 Envoi voyage au 63636
 Mais très limité, on est d'accord
@@ -110,10 +110,10 @@ Tay
 ![](assets/img/tay.jpg)
 
 
-Note: 
+Note:
 bot in Twitter.
 Parler avec les gens et se forger une personnalité.
-EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook : 
+EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook :
 - aduler Hitler
 - renie l'holocauste
 - racisme en tout genre
@@ -141,15 +141,20 @@ EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook 
 
 ---?image=assets/img/cat04.jpeg&size=cover
 
+<div class="with-bg">
+
 #### Chatbots for everything !
 
-* weather | 
+* weather |
 * horoscope |
 * book an hotel / ticket |
-* medical diagnostic | 
+* medical diagnostic |
 * learn |
 * date |
 * ... |
+
+</div>
+
 
 ---?image=assets/img/cat03.jpeg&size=cover
 
@@ -164,7 +169,7 @@ Classifiers
 
 Note:
 input processed by a function ("classifier"),
-qui va associer à une Intention 
+qui va associer à une Intention
 pour produire une réponse.
 
 * Catégoriser parmi plusieurs catégories (intents)
@@ -184,12 +189,12 @@ AIML : Artificial Intelligence Markup Language
       <pattern> WHO IS ALBERT EINSTEIN </pattern>
       <template>Albert Einstein was a German physicist.</template>
    </category>
-   
+
    <category>
       <pattern> WHO IS Isaac NEWTON </pattern>
       <template>Isaac Newton was a English physicist and mathematician.</template>
    </category>
-   
+
    <category>
       <pattern>DO YOU KNOW WHO * IS</pattern>
       <template>
@@ -286,15 +291,15 @@ GO TO DEVFEST
 
 ### NLP
 
-Natural Language Processing 
+Natural Language Processing
 
 
 Note:
 * area of computer science and artificial intelligence concerned with the interactions between computers and human (natural) languages
-* translation 
+* translation
 * SPAM
 * speech recognition
-* natural-language understanding 
+* natural-language understanding
 * natural-language generation
 * Automatic summarization
 * chatbot ...
@@ -319,7 +324,7 @@ Note:
 
 Named-entity recognition
 
-Note: 
+Note:
 Reconnaissance_d'entités_nommées
 
 ---
@@ -340,7 +345,7 @@ Natural language understanding
 
 Note:
 * 2011 $1 million
-*  This number, one of the first 20, uses only one vowel (4 times!). 
+*  This number, one of the first 20, uses only one vowel (4 times!).
 *  Seventeen
 
 ---?image=assets/img/mix.jpeg&size=cover
@@ -421,11 +426,11 @@ Note:
 ![](assets/img/jeanjo02.png)
 
 
-Note: 
-Premiers services imaginés : 
+Note:
+Premiers services imaginés :
 - horaires de la piscine
 - quand passent les poubelles
-- évènements 
+- évènements
 - nb de bancs, emplacement des sacs pour déjections canines... non merci
 
 ---
@@ -444,18 +449,18 @@ Note:
 ---?image=assets/img/dialogflow.png&size=contain
 
 
-Note: 
+Note:
 * mis de côté Facebook, pour aller Google :)
 * Grande bibliothèque de SDK d'intégrations (start small, think big)
 
 ---
 
-Cas pratique 1 
+Cas pratique 1
 
 ---
 
 
-Dans la vraie vie 
+Dans la vraie vie
 
 You | Julien
 -- | --
@@ -468,7 +473,7 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 ---
 
 You | Julien | Type
--- | -- | -- 
+-- | -- | --
 Salut Julien ! | Hey ! | Welcome
 Peux-tu me donner des infos sur le DevFest Toulouse 2018 ? | | Request
 &nbsp; | devfesttoulouse.fr | Fulfillment request
@@ -481,7 +486,7 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 Avec un 😺 chabot 😺
 
 You | Julien | Type
--- | -- | -- 
+-- | -- | --
 Salut Julien ! | Hey ! | Welcome
 Peux-tu me donner des infos sur le DevFest Toulouse 2018 ? | |  Intent + Training Phrases + Entities
 &nbsp; | devfesttoulouse.fr | Fulfillment request
@@ -560,7 +565,7 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 const functions = require('firebase-functions');
 const {WebhookClient} = require('dialogflow-fulfillment');
 const {Card, Suggestion} = require('dialogflow-fulfillment');
- 
+
 exports.dialogflowFirebaseFulfillment = functions.https.onRequest(
   (request, response) => {
   const agent = new WebhookClient({ request, response });
@@ -603,7 +608,7 @@ Les limites
 * Multi-language Agents : supports 15 languages
 * Machine Learning
 
---- 
+---
 
 Some Resources
 
@@ -622,7 +627,7 @@ Some Resources
 
 ---?image=assets/img/cat09.jpeg&size=cover
 
-## Merci 
+## Merci
 
 ---
 
