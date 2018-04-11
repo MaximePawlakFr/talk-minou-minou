@@ -364,7 +364,7 @@ Note:
 
 ---
 
-## Accessible
+Iky
 
 ![](assets/img/iky.gif)
 
@@ -390,7 +390,7 @@ chatbot = ChatBot(
 chatbot.train("chatterbot.corpus.english")
 
 # Get a response to an input statement
-chatbot.get_response("Hello, how are you today?")
+res = chatbot.get_response("Hello, how are you today?")
 ```
 
 
@@ -399,8 +399,6 @@ chatbot.get_response("Hello, how are you today?")
 # Part 4 - Deploy my 1st chatbot
 
 ---
-
-### Jean Jô
 
 ![](assets/img/jeanjo.png)
 
@@ -443,13 +441,15 @@ Cas pratique 1
 
 Dans la vraie vie 
 
+<span class="small-table">
 You | Julien
 -- | --
 Salut Julien ! | Hey !
 Peux-tu me donner des infos sur le DevFest Toulouse 2018 ? | devfesttoulouse.fr
 &nbsp; | C'est le rdv des développeurs dans la région : le 8 novembre, CFP ouvert, ...
 La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les early birds seront dispos le 06 juin !
-
+</span
+>
 ---
 
 You | Julien | Type
