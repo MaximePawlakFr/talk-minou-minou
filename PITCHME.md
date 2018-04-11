@@ -1,6 +1,6 @@
 ## 😺 Minou Minou 😺 ! Les chat(bot)s continuent leur invasion de l'INTERNET
 
-Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
+Maxime PAWLAK - GDG ChatBot S02E07 - 12 avril 2018
 
 ---?image=assets/img/maxime_r.png&size=cover/
 
@@ -45,19 +45,11 @@ Note:
 * La fiesta des buzzwords
 * Appel à OpenData de Toulouse Métropole et à tous les autres
 
----
-
-![](assets/img/jeanjo02.png)
-
-
-Note:
 Premiers services imaginés :
 - horaires de la piscine
 - quand passent les poubelles
 - évènements
 - nb de bancs, emplacement des sacs pour déjections canines... non merci
-
----
 
 ---?image=assets/img/cat02.jpg&size=cover
 
@@ -344,7 +336,8 @@ Note:
 * &nbsp;
 * &nbsp;
 * &nbsp;
-* "devfest toulouse is awesome: there are the greatest speakers and developers!"
+
+"devfest toulouse is awesome: there are the greatest speakers and developers!"
 
 ---
 
@@ -354,7 +347,8 @@ Note:
 * Remove punctuation 
 * &nbsp;
 * &nbsp;
-* "devfest toulouse is awesome there are the greatest speakers and developers"
+
+"devfest toulouse is awesome there are the greatest speakers and developers"
 
 ---
 
@@ -364,7 +358,8 @@ Note:
 * Remove punctuation
 * Stop Words
 * &nbsp;
-* "devfest toulouse awesome greatest speakers developers"
+ 
+"devfest toulouse awesome greatest speakers developers"
 
 ---
 
@@ -374,7 +369,8 @@ Note:
 * Remove punctuation
 * Stop Words
 * Stemming
-* "devfest toulouse awesome great speak develop"
+
+"devfest toulouse awesome great speak develop"
 
 ---
 
@@ -659,6 +655,8 @@ Some Resources
 * [Minute Papillon #72 Je hais les chats](https://www.youtube.com/watch?v=rz8GlTYhjkU)
 
 ---?image=assets/img/cat10.jpeg&size=cover
+
+&nbsp;
 
 ## Thanks
 
