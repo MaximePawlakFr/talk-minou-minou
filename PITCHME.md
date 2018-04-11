@@ -478,8 +478,6 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 
 ## Mise en place avec DialogFlow
 
-![](assets/img/.png)
-
 ---
 ### Intent
 
