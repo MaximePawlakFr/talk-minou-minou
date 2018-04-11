@@ -2,14 +2,22 @@
 
 Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 
----?image=assets/img/kittens01.jpeg&size=contain
+---?image=assets/img/maxime_r.png&size=contain
+
+@Maxime_Pawlak
+
+* curious guy
+* commit42
+* ...
+
+---?image=assets/img/kittens01.jpeg&size=cover
 
 ## Objectives 
 
 * Understand the big picture of chatbot
 * Deploy our 1st chatbot with DialogFlow
 
----?image=assets/img/cat01.jpeg&size=contain
+---?image=assets/img/cat01.jpeg&size=cover
 
 ## Roadmap
 
@@ -18,12 +26,12 @@ Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 * How do they work ?
 * Make your chatbot in 15 mintes
 
----?image=assets/img/cat02.jpg&size=contain
+---?image=assets/img/cat02.jpg&size=cover
 
 # Part 1 - Chabot
 -----
 
----?image=assets/img/wiki.png&size=contain
+---?image=assets/img/wiki.png&size=cover
 
  > "A chatbot is a computer program which conducts a conversation via auditory or textual methods. " Wikipedia
 
@@ -32,7 +40,7 @@ Convaincre qu'on ne discute pas avec un robot, mais un autre humain.
 
 Une interface de dialogue avec un avatar qui va répondre du mieux qu'il peut.
 
----?image=assets/img/nature_interface.jpg&size=contain
+---?image=assets/img/nature_interface.jpg&size=cover
 
 ## Interface
 
