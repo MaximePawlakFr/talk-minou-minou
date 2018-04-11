@@ -9,6 +9,7 @@ Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 * curious guy
 * commit42
 * ...
+* https://medium.com/@Maxime_
 
 ---?image=assets/img/kittens01.jpeg&size=cover
 
@@ -22,8 +23,8 @@ Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 ## Roadmap
 
 * Chatbot, what's that "next revolution"
-* Futur is coming
 * How do they work ?
+* Futur is coming
 * Make your chatbot in 15 mintes
 
 ---?image=assets/img/cat02.jpg&size=cover
@@ -65,9 +66,9 @@ Mais très limité, on est d'accord
 
 ![](assets/img/clippy.jpeg)
 
----
+---?image=assets/img/cat07.jpg&size=cover
 
-## Exemples
+## Some chatbots
 
 ---
 
@@ -429,7 +430,13 @@ Premiers services imaginés :
 
 ---
 
-Quelles plateformes ?
+* Watson (IBM)
+* Microsoft Bot Framework
+* Wit.ai
+* DialogFlow
+* Chatfuel
+* pandorabots
+* ...
 
 Note:
 * principalement sur Messenger, alors que je voulais qqch à mettre sur le site de Toulouse, avec le minimum de dépendance
@@ -596,6 +603,13 @@ Les limites
 * Multi-language Agents : supports 15 languages
 * Machine Learning
 
+--- 
+
+Resources
+
+* A curated list of awesome Chatbot services and resources
+ * https://github.com/JStumpp/awesome-chatbots
+
 ---
 
 # Conclusion
@@ -631,3 +645,5 @@ https://en.wikipedia.org/wiki/Natural-language_processing
 https://www.ekino.com/introduction-nlp-partie-i/
 
 https://github.com/gunthercox/ChatterBot
+
+https://chatbotsjournal.com/25-chatbot-platforms-a-comparative-table-aeefc932eaff
