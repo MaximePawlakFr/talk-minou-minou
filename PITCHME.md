@@ -439,9 +439,9 @@ Cas pratique 1
 
 ---
 
-Dans la vraie vie 
+<div class="al"> 
 
-<div class="small-table">
+Dans la vraie vie 
 
 You | Julien
 -- | --
@@ -451,6 +451,7 @@ Peux-tu me donner des infos sur le DevFest Toulouse 2018 ? | devfesttoulouse.fr
 La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les early birds seront dispos le 06 juin !
 
 </div>
+
 ---
 
 You | Julien | Type
