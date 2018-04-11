@@ -144,8 +144,8 @@ EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook 
 
 ---
 
-![](assets/img/tay_02.jpeg)
 ![](assets/img/tay_06.jpg)
+![](assets/img/tay_02.jpeg)
 
 ---
 
@@ -486,7 +486,6 @@ res = chatbot.get_response("Hello, how are you today?")
 
 Note:
 * principalement sur Messenger, alors que je voulais qqch à mettre sur le site de Toulouse, avec le minimum de dépendance
-Note:
 * mis de côté Facebook, pour aller Google :)
 * Grande bibliothèque de SDK d'intégrations (start small, think big)
 
