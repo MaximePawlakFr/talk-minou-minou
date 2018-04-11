@@ -488,11 +488,6 @@ Note:
 
 ---
 
-Cas pratique 1
-
----
-
-
 Dans la vraie vie
 
 You | Julien
