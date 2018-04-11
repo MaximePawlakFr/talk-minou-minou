@@ -6,3 +6,5 @@ https://gitpitch.com/maximepawlakfr/talk-minou-minou/master
 
 - [ ] Thanks
 - [ ] Examples of chatbot platforms
+- [ ] Further with DialogFlow
+- [ ] Google Assistant
