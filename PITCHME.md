@@ -4,6 +4,9 @@ Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 
 ---?image=assets/img/maxime_r.png&size=cover/
 
+&nbsp;
+
+
 @Maxime_Pawlak
 
 * curious guy
@@ -13,12 +16,18 @@ Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 
 ---?image=assets/img/kittens01.jpeg&size=cover
 
+&nbsp;
+
+
 ## Objectives
 
 * Understand the big picture of chatbot
 * Deploy our 1st chatbot with DialogFlow
 
 ---?image=assets/img/cat01.jpeg&size=cover
+
+&nbsp;
+
 
 ## Roadmap
 
@@ -29,10 +38,16 @@ Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 
 ---?image=assets/img/cat02.jpg&size=cover
 
+&nbsp;
+
+
 # Part 1 - Chabot
 -----
 
 ---?image=assets/img/wiki.png&size=cover
+
+&nbsp;
+
 
  > "A chatbot is a computer program which conducts a conversation via auditory or textual methods. " Wikipedia
 
@@ -42,6 +57,9 @@ Convaincre qu'on ne discute pas avec un robot, mais un autre humain.
 Une interface de dialogue avec un avatar qui va répondre du mieux qu'il peut.
 
 ---?image=assets/img/nature_interface.jpg&size=cover
+
+&nbsp;
+
 
 ## Interface
 
@@ -67,6 +85,9 @@ Mais très limité, on est d'accord
 ![](assets/img/clippy.jpeg)
 
 ---?image=assets/img/cat07.jpg&size=cover
+
+&nbsp;
+
 
 ## Some chatbots
 
@@ -156,6 +177,8 @@ EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook 
 
 ---?image=assets/img/cat03.jpeg&size=cover
 
+&nbsp;
+
 # Part 2 - How do they work ?
 ----
 
@@ -173,6 +196,9 @@ pour produire une réponse.
 * Catégoriser parmi plusieurs catégories (intents)
 
 ---?image=assets/img/cat05.jpeg&size=cover
+
+&nbsp;
+
 
 ## Chatbot text classification
 
@@ -351,11 +377,17 @@ Note:
 
 ---?image=assets/img/cat06.jpeg&size=cover
 
+&nbsp;
+
+
 # Part 3 - Futur ?
 
 ---?image=assets/img/futur.jpg&size=contain
 
 ---?image=assets/img/ihm.jpeg&size=cover
+
+&nbsp;
+
 
 ## IHM
 
@@ -407,6 +439,9 @@ res = chatbot.get_response("Hello, how are you today?")
 
 
 ---?image=assets/img/cat08.jpeg&size=cover
+
+&nbsp;
+
 
 # Part 4 - Deploy my 1st chatbot
 
@@ -493,6 +528,8 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 
 
 ---?image=assets/img/dl00.png
+
+&nbsp;
 
 ## Mise en place avec DialogFlow
 
@@ -624,6 +661,9 @@ Some Resources
 * Chatbots are really easy with DialogFlow
 
 ---?image=assets/img/cat09.jpeg&size=cover
+
+&nbsp;
+
 
 ## Merci
 
