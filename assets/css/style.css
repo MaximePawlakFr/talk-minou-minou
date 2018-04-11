@@ -2,8 +2,22 @@ h1 {
         padding: 0.2em;
     }
 
-section.present {
-    background-color: rgba(17,17,17,0.8);
+section {
+  position: relative;
+}
+section > :first-child:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(17,17,17,0.8);
+  z-index: 0;
+}
+section > * {
+  position: relative;
+  z-index: 1;
 }
 
 .reveal table {
