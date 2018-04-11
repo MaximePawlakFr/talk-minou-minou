@@ -36,12 +36,35 @@ Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 * Futur is coming
 * Make your chatbot in 15 mintes
 
+---
+
+![](assets/img/jeanjo.png)
+
+Note:
+* Mêlée Numérique 2017
+* La fiesta des buzzwords
+* Appel à OpenData de Toulouse Métropole et à tous les autres
+
+---
+
+![](assets/img/jeanjo02.png)
+
+
+Note:
+Premiers services imaginés :
+- horaires de la piscine
+- quand passent les poubelles
+- évènements
+- nb de bancs, emplacement des sacs pour déjections canines... non merci
+
+---
+
 ---?image=assets/img/cat02.jpg&size=cover
 
 &nbsp;
 
 
-# Part 1 - Chabot
+# Part 1 - Chatbot
 -----
 
 ---?image=assets/img/wiki.png&size=cover
@@ -93,15 +116,7 @@ Mais très limité, on est d'accord
 
 ---
 
-![](assets/img/mitsuki_01.png)
-
----
-
 ![](assets/img/mitsuki.png)
-
----
-
-![](assets/img/rose.png)
 
 ---
 
@@ -116,16 +131,6 @@ avec un peu de fun
 
 ---
 
-![](assets/img/poncho.jpeg)
-
----
-
-UX Bear
-
-![uxbear](assets/img/ux_bear.jpeg)
-
----
-
 Tay
 
 ![](assets/img/tay.jpg)
@@ -133,7 +138,9 @@ Tay
 
 Note:
 bot in Twitter.
+Apprentissage : multi-source : forum, pages ...
 Parler avec les gens et se forger une personnalité.
+
 EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook :
 - aduler Hitler
 - renie l'holocauste
@@ -146,19 +153,16 @@ EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook 
 ---
 
 ![](assets/img/tay_02.jpeg)
+![](assets/img/tay_06.jpg)
 
 ---
 
 ![](assets/img/tay_03.jpeg)
 ![](assets/img/tay_05.png)
 
----
-
-![](assets/img/tay_04.jpg)
-
----
-
-![](assets/img/tay_06.jpg)
+Note: 
+Mais apprentissage sans censure, sans contrôle
+Comme un enfant : lui dire ce qui est bien, ce qui est mal
 
 ---?image=assets/img/cat04.jpeg&size=cover
 
@@ -166,13 +170,13 @@ EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook 
 
 #### Chatbots for everything !
 
-* weather |
-* horoscope |
-* book an hotel / ticket |
-* medical diagnostic |
-* learn |
-* date |
-* ... |
+* weather 
+* horoscope
+* book an hotel / ticket
+* medical diagnostic
+* learn
+* date
+* ...
 
 
 ---?image=assets/img/cat03.jpeg&size=cover
@@ -336,11 +340,41 @@ Note:
 
 > "DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
 
-* Lower-case |
-* Remove punctuation |
-* Stop Words |
-* Stemming |
-* > devfest toulouse awesome great speak develop |
+* Lower-case 
+* &nbsp;
+* &nbsp;
+* &nbsp;
+* "devfest toulouse is awesome: there are the greatest speakers and developers!"
+
+---
+
+> "DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
+
+* Lower-case 
+* Remove punctuation 
+* &nbsp;
+* &nbsp;
+* "devfest toulouse is awesome there are the greatest speakers and developers"
+
+---
+
+> "DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
+
+* Lower-case
+* Remove punctuation
+* Stop Words
+* &nbsp;
+* "devfest toulouse awesome greatest speakers developers"
+
+---
+
+> "DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
+
+* Lower-case
+* Remove punctuation
+* Stop Words
+* Stemming
+* "devfest toulouse awesome great speak develop"
 
 ---
 
@@ -369,8 +403,9 @@ Natural language understanding
 
 Note:
 * 2011 $1 million
-*  This number, one of the first 20, uses only one vowel (4 times!).
-*  Seventeen
+    *  This number, one of the first 20, uses only one vowel (4 times!).
+    *  Seventeen
+* Un des 4 pays avec lequel les USA n'ont pas de relation diplomatique, celui le plus au nord.
 
 ---?image=assets/img/mix.jpeg&size=cover
 
@@ -408,13 +443,11 @@ Note:
 
 ---
 
-Iky
+[Iky](https://github.com/alfredfrancis/ai-chatbot-framework/)
 
 ![](assets/img/iky.gif)
 
 "You don’t need to be an expert at artificial intelligence to create an awesome chatbot."
-
-https://github.com/alfredfrancis/ai-chatbot-framework/
 
 ---?image=assets/img/rasa.png&size=contain
 
@@ -447,28 +480,7 @@ res = chatbot.get_response("Hello, how are you today?")
 
 ---
 
-![](assets/img/jeanjo.png)
-
-Note:
-* Mêlée Numérique 2017
-* La fiesta des buzzwords
-* Appel à OpenData de Toulouse Métropole et à tous les autres
-
----
-
-![](assets/img/jeanjo02.png)
-
-
-Note:
-Premiers services imaginés :
-- horaires de la piscine
-- quand passent les poubelles
-- évènements
-- nb de bancs, emplacement des sacs pour déjections canines... non merci
-
----
-
-* Watson (IBM)
+* Watson
 * Microsoft Bot Framework
 * Wit.ai
 * DialogFlow
@@ -478,10 +490,6 @@ Premiers services imaginés :
 
 Note:
 * principalement sur Messenger, alors que je voulais qqch à mettre sur le site de Toulouse, avec le minimum de dépendance
-
----?image=assets/img/dialogflow.png&size=contain
-
-
 Note:
 * mis de côté Facebook, pour aller Google :)
 * Grande bibliothèque de SDK d'intégrations (start small, think big)
@@ -499,6 +507,9 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 
 
 ---
+
+
+Dans la vraie vie
 
 You | Julien | Type
 -- | -- | --
@@ -528,11 +539,15 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 
 ## Mise en place avec DialogFlow
 
+---?image=assets/img/dl01.png&size=contain
+
+Note:
+Description COMPLETE
+
 ---
+
 ### Intent
 
-
----?image=assets/img/dl01.png&size=contain
 ---?image=assets/img/dl02.png&size=contain
 ---?image=assets/img/dl04.png&size=contain
 
@@ -562,7 +577,6 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 ---?image=assets/img/dl16.png&size=contain
 ---?image=assets/img/dl17.png&size=contain
 ---?image=assets/img/dl18.png&size=contain
----?image=assets/img/dl19.png&size=contain
 ---?image=assets/img/dl20.png&size=contain
 
 ---
@@ -579,11 +593,6 @@ La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les
 ---?image=assets/img/dl27.png&size=contain
 ---?image=assets/img/dl28.png&size=contain
 ---?image=assets/img/dl29.png&size=contain
-
----
-### Integrations
----?image=assets/img/dl30.png&size=contain
----?image=assets/img/dl31.png&size=contain
 
 ---
 ### Fulfillment
@@ -618,11 +627,20 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest(
 ---?image=assets/img/dl35.png&size=contain
 
 ---
+### Integrations
+---?image=assets/img/dl30.png&size=contain
+---?image=assets/img/dl31.png&size=contain
 
+---
 ### Web Integration
 
 ---?image=assets/img/dl36.png&size=contain
 ---?image=assets/img/dl37.png&size=contain
+
+---?image=assets/img/dl01.png&size=contain
+
+Note:
+Finally, let's recap
 
 ---
 
@@ -633,19 +651,20 @@ Les limites
 
 ---
 
-# Allez plus loin
-* Import et export des Training phrases
-* Multi-language Agents : supports 15 languages
-* Machine Learning
-
----
-
 Some Resources
 
 * [A curated list of awesome Chatbot services and resources](https://github.com/JStumpp/awesome-chatbots)
 * [Soul of the Machine : How Chatbots work](https://medium.com/@gk_/how-chat-bots-work-dfff656a35e2)
 * [Pourquoi internet est le royaume des chats - Ep.08 - e-penser](https://www.youtube.com/watch?v=yqE6xH901ow)
-* [Minute Papillote #72 Je hais les chats](https://www.youtube.com/watch?v=rz8GlTYhjkU)
+* [Minute Papillon #72 Je hais les chats](https://www.youtube.com/watch?v=rz8GlTYhjkU)
+
+---?image=assets/img/cat10.jpeg&size=cover
+
+## Thanks
+
+* Antoine de Boby 🤖
+* Giovanni + Julien Pradet 😍 
+* Bullshitters 💩
 
 ---
 
