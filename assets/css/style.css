@@ -15,10 +15,6 @@ section > :first-child:before {
   background-color: rgba(17,17,17,0.8);
   z-index: 0;
 }
-section > :first-child > span {
-  position: relative;
-  z-index: 1;
-}
 section > :nth-child(n + 1) {
   position: relative;
   z-index: 1;
