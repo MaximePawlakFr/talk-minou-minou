@@ -442,14 +442,14 @@ Cas pratique 1
 Dans la vraie vie 
 
 <span class="small-table">
+
 You | Julien
 -- | --
 Salut Julien ! | Hey !
 Peux-tu me donner des infos sur le DevFest Toulouse 2018 ? | devfesttoulouse.fr
 &nbsp; | C'est le rdv des développeurs dans la région : le 8 novembre, CFP ouvert, ...
 La billeterie est ouverte ? | Les billets blind birds sont déjà épuisés. Les early birds seront dispos le 06 juin !
-</span
->
+</span>
 ---
 
 You | Julien | Type
