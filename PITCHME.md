@@ -2,7 +2,7 @@
 
 Maxime PAWLAK - GDG ChatBot - S02E07 - Jeudi 12 avril 2018
 
----?image=assets/img/maxime_r.png&size=contain
+---?image=assets/img/maxime_r.png&size=cover/
 
 @Maxime_Pawlak
 
@@ -139,7 +139,7 @@ EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook 
 
 ![](assets/img/tay_06.jpg)
 
----?image=assets/img/cat04.jpeg&size=contain
+---?image=assets/img/cat04.jpeg&size=cover
 
 #### Chatbots for everything !
 
@@ -151,7 +151,7 @@ EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook 
 * date |
 * ... |
 
----?image=assets/img/cat03.jpeg&size=contain
+---?image=assets/img/cat03.jpeg&size=cover
 
 # Part 2 - How do they work ?
 ----
@@ -169,7 +169,7 @@ pour produire une réponse.
 
 * Catégoriser parmi plusieurs catégories (intents)
 
----?image=assets/img/cat05.jpeg&size=contain
+---?image=assets/img/cat05.jpeg&size=cover
 
 ## Chatbot text classification
 
@@ -336,23 +336,23 @@ Natural language understanding
 
 ![](assets/img/nlp_nlu.png)
 
----?image=assets/img/watson.jpg&size=contain
+---?image=assets/img/watson.jpg&size=cover
 
 Note:
 * 2011 $1 million
 *  This number, one of the first 20, uses only one vowel (4 times!). 
 *  Seventeen
 
----?image=assets/img/mix.jpeg&size=contain
+---?image=assets/img/mix.jpeg&size=cover
 
 
----?image=assets/img/cat06.jpeg&size=contain
+---?image=assets/img/cat06.jpeg&size=cover
 
 # Part 3 - Futur ?
 
 ---?image=assets/img/futur.jpg&size=contain
 
----?image=assets/img/ihm.jpeg&size=contain
+---?image=assets/img/ihm.jpeg&size=cover
 
 ## IHM
 
@@ -403,7 +403,7 @@ res = chatbot.get_response("Hello, how are you today?")
 ```
 
 
----
+---?image=assets/img/cat08.jpeg&size=cover
 
 # Part 4 - Deploy my 1st chatbot
 
@@ -605,10 +605,16 @@ Les limites
 
 --- 
 
-Resources
+Some Resources
 
 * A curated list of awesome Chatbot services and resources
  * https://github.com/JStumpp/awesome-chatbots
+* Soul of the Machine : How Chatbots work
+ * https://medium.com/@gk_/how-chat-bots-work-dfff656a35e2
+* Pourquoi internet est le royaume des chats - Ep.08 - e-penser
+ * https://www.youtube.com/watch?v=yqE6xH901ow
+* Minute Papillote #72 Je hais les chats
+ * https://www.youtube.com/watch?v=rz8GlTYhjkU
 
 ---
 
@@ -618,9 +624,9 @@ Resources
 * Chatbots are accessible
 * Chatbots are really easy with DialogFlow
 
----
+---?image=assets/img/cat09.jpeg&size=cover
 
-# Merci 
+## Merci 
 
 ---
 

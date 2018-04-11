@@ -8,9 +8,9 @@ https://gitpitch.com/maximepawlakfr/talk-minou-minou/master
 
 
 ## TODO
-- [ ] Introduce myself
+- [x] Introduce myself
 - [ ] Thanks
-- [ ] Examples of chatbot platforms
+- [x] Examples of chatbot platforms
 - [ ] Further with DialogFlow
 - [ ] Google Assistant
-- [ ] Resources
+- [x] Resources
