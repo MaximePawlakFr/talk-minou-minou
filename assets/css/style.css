@@ -5,9 +5,8 @@ h1 {
 section {
   position: relative;
 }
-section > :first-child:before {
+section > :first-child {
   position: absolute;
-  content: '';
   top: 0;
   bottom: 0;
   left: 0;
