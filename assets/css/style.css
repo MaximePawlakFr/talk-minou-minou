@@ -2,10 +2,10 @@ h1 {
         padding: 0.2em;
     }
 
-section {
+section[data-background-image] {
   position: relative;
 }
-section > :first-child {
+section[data-background-image] > :first-child:not(:last-child) {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -16,7 +16,7 @@ section > :first-child {
   margin: 0;
   padding: 0;
 }
-section > :nth-child(n + 1) {
+section[data-background-image] > :nth-child(n + 2) {
   position: relative;
   z-index: 1;
 }
