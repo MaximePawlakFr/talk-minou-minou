@@ -152,7 +152,7 @@ EN moins de 24h, l'humanité l'a pervertie et elle a été retirée de facebook 
 ![](assets/img/tay_03.jpeg)
 ![](assets/img/tay_05.png)
 
-Note: 
+Note:
 Mais apprentissage sans censure, sans contrôle
 Comme un enfant : lui dire ce qui est bien, ce qui est mal
 
@@ -162,7 +162,7 @@ Comme un enfant : lui dire ce qui est bien, ce qui est mal
 
 #### Chatbots for everything !
 
-* weather 
+* weather
 * horoscope
 * book an hotel / ticket
 * medical diagnostic
@@ -332,7 +332,7 @@ Note:
 
 > "DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
 
-* Lower-case 
+* Lower-case
 * &nbsp;
 * &nbsp;
 * &nbsp;
@@ -343,8 +343,8 @@ Note:
 
 > "DevFest Toulouse is AWESOME: there are the greatest speakers and developers!”
 
-* Lower-case 
-* Remove punctuation 
+* Lower-case
+* Remove punctuation
 * &nbsp;
 * &nbsp;
 
@@ -358,7 +358,7 @@ Note:
 * Remove punctuation
 * Stop Words
 * &nbsp;
- 
+
 "devfest toulouse awesome greatest speakers developers"
 
 ---
@@ -660,7 +660,8 @@ Some Resources
 ## Thanks
 
 * Antoine de Boby 🤖
-* Giovanni + Julien Pradet 😍 
+* Giovanni + Julien Pradet 😍
+* Stack Labs
 * Bullshitters 💩
 
 ---
@@ -682,12 +683,13 @@ Some Resources
 
 Sources :
 
+```
 https://en.wikipedia.org/wiki/Chatbot
 https://en.wikipedia.org/wiki/Virtual_assistant_(artificial_intelligence)
 https://en.wikipedia.org/wiki/Turing_test
 
 https://chatbotsmagazine.com/which-are-the-best-intelligent-chatbots-or-ai-chatbots-available-online-cc49c0f3569d
-
+https://towardsdatascience.com/the-top-5-best-chatbot-and-natural-language-processing-to-build-ai-for-your-business-3efea313d8db
 
 https://www.businessnewsdaily.com/10450-funniest-chatbot-fails.html
 http://www.netimperative.com/2016/12/12-worst-marketing-fails-2016-rogue-chatbots-tasteless-burgers-google-fools/
@@ -703,3 +705,4 @@ https://www.ekino.com/introduction-nlp-partie-i/
 https://github.com/gunthercox/ChatterBot
 
 https://chatbotsjournal.com/25-chatbot-platforms-a-comparative-table-aeefc932eaff
+```
